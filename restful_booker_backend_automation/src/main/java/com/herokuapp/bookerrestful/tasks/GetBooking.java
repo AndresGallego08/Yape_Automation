@@ -1,13 +1,12 @@
 package com.herokuapp.bookerrestful.tasks;
 
-import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.rest.interactions.Get;
-import net.thucydides.core.requirements.reports.ScenarioOutcome;
 
-import static com.herokuapp.bookerrestful.utils.Constants.*;
+import static com.herokuapp.bookerrestful.utils.Constants.BOOKING_ID;
+import static com.herokuapp.bookerrestful.utils.Constants.BOOKING_PATH;
 import static net.serenitybdd.rest.SerenityRest.lastResponse;
 
 public class GetBooking implements Task {

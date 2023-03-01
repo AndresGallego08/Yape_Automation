@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/booking.feature",
         glue = "com.herokuapp.bookerrestful.stepdefinitions",
         snippets = SnippetType.CAMELCASE
-        //tags = "@UpdateBooking"
 )
 public class BookingRunner {
 }

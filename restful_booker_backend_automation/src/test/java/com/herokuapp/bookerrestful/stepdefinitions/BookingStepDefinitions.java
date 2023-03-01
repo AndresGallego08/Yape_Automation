@@ -67,6 +67,4 @@ public class BookingStepDefinitions {
     public void theUserWillGetTheStatusCode(int code) {
         theActorInTheSpotlight().should(ResponseConsequence.seeThatResponse(response -> response.statusCode(code)));
     }
-
-
 }

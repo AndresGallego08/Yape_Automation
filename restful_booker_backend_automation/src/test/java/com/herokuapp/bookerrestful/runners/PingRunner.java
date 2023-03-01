@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/ping.feature",
         glue = "com.herokuapp.bookerrestful.stepdefinitions",
         snippets = SnippetType.CAMELCASE
-        //tags = "@HealthCheck"
 )
 public class PingRunner {
 }

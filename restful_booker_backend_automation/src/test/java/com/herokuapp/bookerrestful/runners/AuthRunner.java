@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/auth.feature",
         glue = "com.herokuapp.bookerrestful.stepdefinitions",
         snippets = SnippetType.CAMELCASE
-        //tags = "@CreateAuthToken"
 )
 public class AuthRunner {
 }
