@@ -1,10 +1,14 @@
 package com.herokuapp.bookerrestful.tasks;
 
 import com.herokuapp.bookerrestful.models.DataBooking;
+import io.restassured.http.ContentType;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.rest.interactions.Post;
+
+import static com.herokuapp.bookerrestful.utils.Constants.BOOKING_PATH;
+import static com.herokuapp.bookerrestful.utils.Constants.FORMAT_VALUE;
 
 public class CreateNew implements Task {
 
@@ -21,11 +25,10 @@ public class CreateNew implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        System.out.println(dataBooking.toString());
-        actor.attemptsTo(Post.to("/booking")
+        actor.attemptsTo(Post.to(BOOKING_PATH)
                 .with(request -> request
-                        .header("Content-Type", "application/json")
-                        .accept("application/json")
+                        .contentType(FORMAT_VALUE)
+                        .accept(FORMAT_VALUE)
                         .body(dataBooking)));
     }
 }

@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/booking.feature",
+        features = "src/test/resources/features/auth.feature",
         glue = "com.herokuapp.bookerrestful.stepdefinitions",
         snippets = SnippetType.CAMELCASE
-        //tags = "@UpdateBooking"
+        //tags = "@CreateAuthToken"
 )
-public class BookingRunner {
+public class AuthRunner {
 }
