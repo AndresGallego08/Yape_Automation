@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d54de60dc88bda7a439f2563a31e6ac9bb8f0613d0b35bae01d3ede2bc31e17a.html">I As A User Need To Create An Account To Add Products To The Cart</a></span>
+                > <span class="truncate-60"><a
+                    href="428cb4378042f4100c436442cfb467d1a903ed4e0b88301659250500fa790b47.html">Create Register </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-03-2023 00:30</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">I As A User Need To Create An Account To Add Products To The Cart </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Create Register
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.booking.certificacion.tasks.BookHotel.performAs(BookHotel.java:23)<br />com.booking.certificacion.stepdefinitions.StaysStepDefinitions.heEntersTheReservationInformation(StaysStepDefinitions.java:33)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //*[@resource-id='com.booking:id/group_config_apply_button'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>com.booking.certificacion.tasks.BookHotel.performAs(BookHotel.java :23)<br />com.booking.certificacion.stepdefinitions.StaysStepDefinitions.heEntersTheReservationInformation(StaysStepDefinitions.java :33)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6551615225194590983.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="10e0ef7ea91ed774d5f26da431aa5e55ceec9529e84867a51dd38440f016a53c.png" title=" Given the user is on the stays page" width="1080"/>
+                <img src="10e0ef7ea91ed774d5f26da431aa5e55ceec9529e84867a51dd38440f016a53c.png" title=" Buyer login" width="1080"/>
+                <img src="10e0ef7ea91ed774d5f26da431aa5e55ceec9529e84867a51dd38440f016a53c.png" title=" Buyer clicks on Select Acount option to login" width="1080"/>
+                <img src="5851f294b93bbc891e3573f77f88a673a9c5c55ee6c1dd749dd70f16e2b9833c.png" title=" Buyer clicks on Select Acount option to login (completed)" width="1080"/>
+                <img src="5851f294b93bbc891e3573f77f88a673a9c5c55ee6c1dd749dd70f16e2b9833c.png" title=" Buyer enters 'andres.gallego.k@gmail.com' into Enter email address" width="1080"/>
+                <img src="8922354e39f8a29b94d85a2075d10ffada07d56ecdead0b5c0bb47a3e5572ff3.png" title=" Buyer enters 'andres.gallego.k@gmail.com' into Enter email address (completed)" width="1080"/>
+                <img src="8922354e39f8a29b94d85a2075d10ffada07d56ecdead0b5c0bb47a3e5572ff3.png" title=" Buyer clicks on Continue button" width="1080"/>
+                <img src="603d3d3812861eb251a7410623e406783d5a2932cd45474ba1d93ffc32f27f67.png" title=" Buyer clicks on Continue button (completed)" width="1080"/>
+                <img src="603d3d3812861eb251a7410623e406783d5a2932cd45474ba1d93ffc32f27f67.png" title=" Buyer enters 'Test123123*' into Password field" width="1080"/>
+                <img src="89fb83f014f5d74e24e2861abdb117aae971a4d4be5c115e3c11bedfdfb01eaa.png" title=" Buyer enters 'Test123123*' into Password field (completed)" width="1080"/>
+                <img src="89fb83f014f5d74e24e2861abdb117aae971a4d4be5c115e3c11bedfdfb01eaa.png" title=" Buyer clicks on Login button" width="1080"/>
+                <img src="37c2db6722e8bcf2de2f48d5b73468b95ab7c97edc27d41297a63d969cc7e967.png" title=" Buyer clicks on Login button (completed)" width="1080"/>
+                <img src="37c2db6722e8bcf2de2f48d5b73468b95ab7c97edc27d41297a63d969cc7e967.png" title=" Buyer login (completed)" width="1080"/>
+                <img src="37c2db6722e8bcf2de2f48d5b73468b95ab7c97edc27d41297a63d969cc7e967.png" title=" Given the user is on the stays page (completed)" width="1080"/>
+                <img src="37c2db6722e8bcf2de2f48d5b73468b95ab7c97edc27d41297a63d969cc7e967.png" title=" When he enters the reservation information
+| destination | checkInDate | checkOutDate | firstName | lastName | email | country | mobilePhone |
+| Cusco | 04 abril 2023 | 08 abril 2023 | Andres | Gallego | test@gmail.com | Colombia | 3213213221 |" width="1080"/>
+                <img src="37c2db6722e8bcf2de2f48d5b73468b95ab7c97edc27d41297a63d969cc7e967.png" title=" Buyer book hotel" width="1080"/>
+                <img src="bf77bdcf5acac8a77523fb1bbc48aea97d4ccb7734bb80bd0ffcce2f452cacbc.png" title=" Buyer clicks on Click on destination field" width="1080"/>
+                <img src="e51281422db17f39d6356a5fb04cfb76b03ba4b52bcc65c29f0a72e0f0c75d3a.png" title=" Buyer clicks on Click on destination field (completed)" width="1080"/>
+                <img src="e51281422db17f39d6356a5fb04cfb76b03ba4b52bcc65c29f0a72e0f0c75d3a.png" title=" Buyer enters 'Cusco' into Enter estination on destination field" width="1080"/>
+                <img src="af99ba7a97ce6b0c569c0c78d7da350f8c05cbb0bf49e4f25a1596f519c9f67c.png" title=" Buyer enters 'Cusco' into Enter estination on destination field (completed)" width="1080"/>
+                <img src="af99ba7a97ce6b0c569c0c78d7da350f8c05cbb0bf49e4f25a1596f519c9f67c.png" title=" Buyer clicks on Select destination" width="1080"/>
+                <img src="935dee79b7636a20afdf2a3e0aacd27d2bcc4cc7b3102901756606847cae35a9.png" title=" Buyer clicks on Select destination (completed)" width="1080"/>
+                <img src="935dee79b7636a20afdf2a3e0aacd27d2bcc4cc7b3102901756606847cae35a9.png" title=" Buyer clicks on Select date on calendar" width="1080"/>
+                <img src="9e02a9f8e897182998e378681de817243209ecf00aa96cba9d5a44197bb90ace.png" title=" Buyer clicks on Select date on calendar (completed)" width="1080"/>
+                <img src="9e02a9f8e897182998e378681de817243209ecf00aa96cba9d5a44197bb90ace.png" title=" Buyer clicks on Select date on calendar" width="1080"/>
+                <img src="104157730664a6f7e415fb37a0a9a43091d99d4c030714df21331f99a3e71ff4.png" title=" Buyer clicks on Select date on calendar (completed)" width="1080"/>
+                <img src="104157730664a6f7e415fb37a0a9a43091d99d4c030714df21331f99a3e71ff4.png" title=" Buyer clicks on Confirm dates" width="1080"/>
+                <img src="155bad6807024b6875790576a9a6d1a1ecc59f113dd2d0002729bdc6387101c8.png" title=" Buyer clicks on Confirm dates (completed)" width="1080"/>
+                <img src="155bad6807024b6875790576a9a6d1a1ecc59f113dd2d0002729bdc6387101c8.png" title=" Buyer clicks on Apply button" width="1080"/>
+                <img src="98a0b4e0d267825658f9e55c2057d9e47d6add88dde61effc3187a059ea83b8a.png" title=" Buyer clicks on Apply button (completed): <span class='failing-color'>FAILURE</span>" width="1080"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.49</span>
+</div>
+</body>
+</html>
